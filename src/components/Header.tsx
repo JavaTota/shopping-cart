@@ -8,13 +8,14 @@ import {
   Badge,
 } from "react-bootstrap";
 import { FaShoppingCart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <Navbar bg="dark" variant="dark" style={{ height: 80 }}>
       <Container>
         <Navbar.Brand>
-          <a href="">ShoppingCart</a>
+          <Link to="/">ShoppingCart</Link>
         </Navbar.Brand>
         <Navbar.Text className="search">
           <FormControl
